@@ -1,8 +1,8 @@
 import tensorflow as tf
 import numpy as np
-from layers import EncoderLayer
+from models.modules.layers import EncoderLayer
 import matplotlib.pyplot as plt
-from positional_encoding import positional_encoding
+from models.modules.positional_encoding import positional_encoding
 
 
 class Encoder(tf.keras.Model):
