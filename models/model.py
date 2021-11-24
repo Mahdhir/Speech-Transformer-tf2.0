@@ -1,7 +1,7 @@
-from transformer import Transformer
+from models.transformer import Transformer
 import tensorflow as tf
-from modules.attention import Pre_Net
-from modules.input_mask import create_combined_mask
+from models.modules.attention import Pre_Net
+from models.modules.input_mask import create_combined_mask
 import numpy as np
 from utils import  AttrDict
 import yaml
