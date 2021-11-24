@@ -1,11 +1,11 @@
-from attention import *
-from decoder import *
-from encoder import *
-from input_mask import *
-from layers import *
-from loss import *
-from optimizer import *
-from positional_encoding import *
+from models.modules.attention import *
+from models.modules.decoder import *
+from models.modules.encoder import *
+from models.modules.input_mask import *
+from models.modules.layers import *
+from models.modules.loss import *
+from models.modules.optimizer import *
+from models.modules.positional_encoding import *
 
 if __name__=='__main__':
     print('ok')
