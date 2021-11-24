@@ -1,8 +1,8 @@
 import tensorflow as tf
 import numpy as np
-from layers import DecoderLayer
-from positional_encoding import positional_encoding
-from encoder import Encoder
+from models.modules.layers import DecoderLayer
+from models.modules.positional_encoding import positional_encoding
+from models.modules.encoder import Encoder
 
 class Decoder(tf.keras.Model):
     def __init__(self, num_layers, d_model, num_heads, dff, target_vocab_size,name,
