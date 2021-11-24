@@ -4,7 +4,7 @@ echo ===========================================================================
 echo "                              Librispeech                                 "
 echo ============================================================================
 
-DATASET_ROOT_PATH='~/corpus_en/LibriSpeech'
+DATASET_ROOT_PATH='/content/datasets/LibriSpeech'
 
 echo ============================================================================
 echo "                        Convert from flac to wav                          "
