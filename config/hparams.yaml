@@ -7,8 +7,8 @@ hop_size: 0.010      # s
 frame_rate: 30    # ms
 preemphasis: 0.98
 data_length: False # None for all data
-data_path: E:\corpus_en
-scp_path: D:\pycharm_proj\Speech_Transformer\datasets
+data_path: /content/datasets
+scp_path: /content/Speech-Transformer-tf2.0/datasets
 shuffle: True
 left_context_width: 0
 right_context_width: 0
